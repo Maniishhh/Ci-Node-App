@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository'){
             steps{
-                git clone 'https://github.com/Maniishhh/Ci-Node-App.git'
+                git 'https://github.com/Maniishhh/Ci-Node-App.git'
             }
         }
         stage('Install Dependencies'){
